@@ -22,5 +22,5 @@ func kidsWithCandies(candies []int, extraCandies int) []bool {
 		ans[i] = v+extraCandies >= max
 	}
 
-	return ans
+	return ans 
 }
