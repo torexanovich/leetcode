@@ -1,13 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
-	candies := []int{12, 1, 12}
-	fmt.Println(kidsWithCandies(candies, 10))
-}
+// func main() {
+// 	candies := []int{12, 1, 12}
+// 	fmt.Println(kidsWithCandies(candies, 10))
+// }
 
 // Use greedy approach. For each kid check if candies[i] + extraCandies ≥ maximum in Candies[i].
 
